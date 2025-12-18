@@ -19,7 +19,7 @@ app.post("/signup", async (req,res)=>{
 
     }catch(err){
         console.error("Error signing up user:", err);
-        res.status(400).send("Error signing up user:");
+        res.status(400).send("Error signing up user :");
     }
 
 })
